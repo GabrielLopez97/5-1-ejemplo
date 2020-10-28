@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using Enumerados;
 
 namespace proyecto_clases.clases
 {
@@ -7,16 +8,16 @@ namespace proyecto_clases.clases
          {
 
 
-             public Alunmos()
+             public Alumnos()
              {
                  this.Activo = true;
                  this.Sueldo = 100;
              }
 
-             public Alunmo(int idAlumno, string nombre)
+             public Alumnos(int idAlumno, string nombre)
              {
-                 this.IdAlunmo = idAlunmo;
-                 this.Nombre = nombre;
+                 this.idAlumno = idAlumno;
+                 this.nombre = nombre;
                  this.Activo = true;
              }
 

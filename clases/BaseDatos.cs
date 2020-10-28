@@ -1,4 +1,4 @@
-using.System.collections.Generic;
+using System.Collections.Generic;
 
 namespace proyecto_clases.clases
 {
@@ -6,11 +6,11 @@ namespace proyecto_clases.clases
      public static class BaseDatos
      {
 
-          static List.<Alunmos> TableAlumno =  new List<Alumno>();
+          static List.<Alumno> TableAlumno = new List<Alumno>();
 
-          public static bool Guardar(Alunmos alumnos)
+          public static bool Guardar(Alumnos alumnos)
           {
-              TablaAlunmo.Add(alumno);
+              TablaAlumno.Add(alumno);
               return true;
           }
 
